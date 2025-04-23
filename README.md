@@ -2,7 +2,7 @@
 
 This is a **Library Management System** built using **Java**, **Spring Boot**, and **JPA**. It allows patrons to borrow books from a library. The system automatically manages the database and the relationship between the entities: `Book`, `Patron`, and `Borrow`.
 
-##Features of LMS  <br>
+# Features of LMS  <br>
 - Add Book <br>
 - Add Patron  <br>
 - delete book  <br>
@@ -60,7 +60,7 @@ Switch to the library database:
     - **patron** (for `Patron` entity)
     - **borrow** (for `Borrow` entity, as a join table)
       
-#Add a New Book Example(using postman) <br>
+# Add a New Book Example(using postman) <br>
 method type-post <br>
 method url-localhost:8081/addBook  <br>
 body - {   <br>
